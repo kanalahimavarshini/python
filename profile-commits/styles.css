@@ -7,7 +7,15 @@
 }
 main {
     padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
 }
-h1 {
-    font-size: 2rem;
+.intro {
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(45, 60, 85, 0.08);
+    padding: 2rem;
+}
+.intro h1 {
+    margin-top: 0;
 }
