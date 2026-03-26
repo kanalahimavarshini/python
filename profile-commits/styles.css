@@ -1,36 +1,27 @@
-﻿.form-card {
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(180deg, #f4f7fb 0%, #e2e8f0 100%);
+    color: #22303c;
+}
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.75rem;
+}
+.intro,
+.details,
+.form-card {
     background: #ffffff;
     border-radius: 18px;
     box-shadow: 0 18px 40px rgba(45, 60, 85, 0.08);
     padding: 2rem;
+    animation: fadeIn 0.8s ease;
 }
-.form-card h2 {
-    margin-top: 0;
-}
-#demoForm {
-    display: grid;
-    gap: 1rem;
-}
-#demoForm input,
-#demoForm button {
-    font-size: 1rem;
-    padding: 0.95rem 1rem;
-    border-radius: 12px;
-    border: 1px solid #cbd5e0;
-}
-#demoForm input {
-    width: 100%;
-}
-#demoForm button {
-    background: #2b6cb0;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-#demoForm button:hover {
-    background: #2c5282;
-}
-.form-note {
-    margin-top: 0.75rem;
-    color: #718096;
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
