@@ -4,3 +4,5 @@ age = 18
 marks = 95.5
 
 print(name, age, marks)
+name = input("Enter your name: ")
+print("Welcome", name)
