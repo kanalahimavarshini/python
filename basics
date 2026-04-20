@@ -14,3 +14,12 @@ elif num == 0:
     print("Zero")
 else:
     print("Negative")
+    # For loop
+for i in range(5):
+    print(i)
+
+# While loop
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
