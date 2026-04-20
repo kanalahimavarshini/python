@@ -34,3 +34,9 @@ print(numbers)
 
 for num in numbers:
     print(num)
+    student = {
+    "name": "Hima",
+    "age": 18
+}
+
+print(student["name"])
