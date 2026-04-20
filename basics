@@ -42,3 +42,8 @@ for num in numbers:
 print(student["name"])
 squares = [x*x for x in range(5)]
 print(squares)
+with open("file.txt", "w") as f:
+    f.write("Hello Python")
+
+with open("file.txt", "r") as f:
+    print(f.read())
