@@ -77,3 +77,10 @@ except ValueError:
     print("Invalid input")
     add = lambda a, b: a + b
 print(add(3, 4))
+nums = [1, 2, 3, 4]
+
+squared = list(map(lambda x: x*x, nums))
+even = list(filter(lambda x: x % 2 == 0, nums))
+
+print(squared)
+print(even)
