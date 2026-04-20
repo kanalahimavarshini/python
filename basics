@@ -1,1 +1,6 @@
 print("Hello, World!")
+name = "Hima"
+age = 18
+marks = 95.5
+
+print(name, age, marks)
