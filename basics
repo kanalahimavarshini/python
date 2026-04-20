@@ -75,3 +75,5 @@ except ZeroDivisionError:
     print("Cannot divide by zero")
 except ValueError:
     print("Invalid input")
+    add = lambda a, b: a + b
+print(add(3, 4))
