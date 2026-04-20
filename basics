@@ -27,3 +27,10 @@ while i <= 5:
     return a + b
 
 print(add(5, 3))
+numbers = [1, 2, 3, 4]
+
+numbers.append(5)
+print(numbers)
+
+for num in numbers:
+    print(num)
