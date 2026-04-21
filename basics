@@ -156,3 +156,11 @@ print(unique)
 sentence = input("Enter sentence: ")
 words = sentence.split()
 print("Word count:", len(words))
+import random
+import string
+
+length = 8
+chars = string.ascii_letters + string.digits
+password = ''.join(random.choice(chars) for _ in range(length))
+
+print("Password:", password)
