@@ -153,3 +153,6 @@ print("Largest:", largest)
 arr = [1, 2, 2, 3, 4, 4]
 unique = list(set(arr))
 print(unique)
+sentence = input("Enter sentence: ")
+words = sentence.split()
+print("Word count:", len(words))
