@@ -125,3 +125,9 @@ for _ in range(n):
     return n * factorial(n-1)
 
 print(factorial(5))
+s = input("Enter string: ")
+
+if s == s[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
