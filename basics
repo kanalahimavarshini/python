@@ -164,3 +164,14 @@ chars = string.ascii_letters + string.digits
 password = ''.join(random.choice(chars) for _ in range(length))
 
 print("Password:", password)
+import json
+
+data = {"name": "Hima", "age": 18}
+
+# Write JSON
+with open("data.json", "w") as f:
+    json.dump(data, f)
+
+# Read JSON
+with open("data.json", "r") as f:
+    print(json.load(f))
