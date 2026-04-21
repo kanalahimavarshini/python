@@ -131,3 +131,6 @@ if s == s[::-1]:
     print("Palindrome")
 else:
     print("Not Palindrome")
+    s = input("Enter string: ")
+count = sum(1 for ch in s.lower() if ch in "aeiou")
+print("Vowels:", count)
