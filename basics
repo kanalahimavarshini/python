@@ -194,3 +194,8 @@ if sorted(s1) == sorted(s2):
     print("Anagram")
 else:
     print("Not Anagram")
+    arr = [10, 20, 4, 45, 99]
+arr = list(set(arr))
+arr.sort()
+
+print("Second Largest:", arr[-2])
