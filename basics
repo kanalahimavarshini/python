@@ -245,3 +245,14 @@ while low <= high:
         low = mid + 1
     else:
         high = mid - 1
+        num = int(input("Enter number: "))
+power = len(str(num))
+temp = num
+sum_val = 0
+
+while temp > 0:
+    digit = temp % 10
+    sum_val += digit ** power
+    temp //= 10
+
+print("Armstrong" if sum_val == num else "Not Armstrong")
