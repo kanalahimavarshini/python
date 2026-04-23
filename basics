@@ -324,3 +324,13 @@ stack.append(30)
 
 print("Popped:", stack.pop())
 print("Stack:", stack)
+from collections import deque
+
+queue = deque()
+
+queue.append(1)
+queue.append(2)
+queue.append(3)
+
+print("Removed:", queue.popleft())
+print(queue)
