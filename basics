@@ -377,3 +377,14 @@ b = [3, 4, 5, 6]
 
 intersection = list(set(a) & set(b))
 print(intersection)
+contacts = {}
+
+contacts["Hima"] = "12345"
+contacts["Ram"] = "67890"
+
+name = input("Enter name to search: ")
+
+if name in contacts:
+    print("Number:", contacts[name])
+else:
+    print("Not found")
