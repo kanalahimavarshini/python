@@ -306,3 +306,13 @@ while b:
     a, b = b, a % b
 
 print("GCD:", a)
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+
+def gcd(x, y):
+    while y:
+        x, y = y, x % y
+    return x
+
+lcm = (a * b) // gcd(a, b)
+print("LCM:", lcm)
