@@ -483,3 +483,18 @@ def bfs(start):
             queue.extend(graph[node])
 
 bfs(1)
+graph = {
+    1: [2, 3],
+    2: [4],
+    3: [],
+    4: []
+}
+
+def dfs(node, visited=set()):
+    if node not in visited:
+        print(node, end=" ")
+        visited.add(node)
+        for neighbor in graph[node]:
+            dfs(neighbor, visited)
+
+dfs(1)
