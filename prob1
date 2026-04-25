@@ -48,3 +48,15 @@ for num in nums:
     result += [curr + [num] for curr in result]
 
 print(result)
+def permute(nums):
+    if len(nums) == 0:
+        return [[]]
+    
+    res = []
+    for i in range(len(nums)):
+        rest = nums[:i] + nums[i+1:]
+        for p in permute(rest):
+            res.append([nums[i]] + p)
+    return res
+
+print(permute([1, 2, 3]))
