@@ -41,3 +41,10 @@ k = k % len(arr)
 arr = arr[-k:] + arr[:-k]
 
 print(arr)
+nums = [1, 2, 3]
+result = [[]]
+
+for num in nums:
+    result += [curr + [num] for curr in result]
+
+print(result)
