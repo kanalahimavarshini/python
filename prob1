@@ -99,3 +99,10 @@ heapq.heapify(nums)
 
 heapq.heappush(nums, 2)
 print(heapq.heappop(nums))  # smallest element
+from collections import Counter
+
+nums = [1,1,1,2,2,3]
+k = 2
+
+freq = Counter(nums)
+print([item for item, _ in freq.most_common(k)])
