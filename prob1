@@ -106,3 +106,8 @@ k = 2
 
 freq = Counter(nums)
 print([item for item, _ in freq.most_common(k)])
+with open("file.txt", "r") as f:
+    text = f.read()
+
+words = text.split()
+print("Word Count:", len(words))
