@@ -296,3 +296,9 @@ email = input("Enter email: ")
 username, domain = email.split("@")
 print("Username:", username)
 print("Domain:", domain)
+import requests
+
+url = "https://example.com"
+response = requests.get(url)
+
+print("Status Code:", response.status_code)
