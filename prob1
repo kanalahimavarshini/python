@@ -209,3 +209,20 @@ while queue:
             queue.append(nei)
 
 print(order)
+parent = {}
+
+def find(x):
+    if parent[x] != x:
+        parent[x] = find(parent[x])
+    return parent[x]
+
+def union(x, y):
+    parent[find(x)] = find(y)
+
+nodes = [1,2,3,4]
+for n in nodes:
+    parent[n] = n
+
+union(1,2)
+union(3,4)
+print(find(1) == find(2))  # True
