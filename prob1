@@ -252,3 +252,8 @@ class Trie:
 t = Trie()
 t.insert("cat")
 print(t.search("cat"))
+def rabin_karp(text, pattern):
+    if pattern in text:
+        print("Pattern found")
+
+rabin_karp("hello world", "world")
