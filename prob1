@@ -291,3 +291,8 @@ t2.start()
 
 t1.join()
 t2.join()
+email = input("Enter email: ")
+
+username, domain = email.split("@")
+print("Username:", username)
+print("Domain:", domain)
