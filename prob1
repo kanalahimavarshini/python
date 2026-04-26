@@ -111,3 +111,16 @@ with open("file.txt", "r") as f:
 
 words = text.split()
 print("Word Count:", len(words))
+import bisect
+
+arr = [10, 9, 2, 5, 3, 7, 101, 18]
+lis = []
+
+for num in arr:
+    pos = bisect.bisect_left(lis, num)
+    if pos == len(lis):
+        lis.append(num)
+    else:
+        lis[pos] = num
+
+print("Length of LIS:", len(lis))
