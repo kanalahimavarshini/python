@@ -163,3 +163,28 @@ def dijkstra(start):
     return dist
 
 print(dijkstra('A'))
+graph = {
+    0: [1],
+    1: [2],
+    2: [0],
+    3: []
+}
+
+visited = set()
+rec_stack = set()
+
+def has_cycle(v):
+    visited.add(v)
+    rec_stack.add(v)
+
+    for nei in graph[v]:
+        if nei not in visited:
+            if has_cycle(nei):
+                return True
+        elif nei in rec_stack:
+            return True
+
+    rec_stack.remove(v)
+    return False
+
+print(any(has_cycle(v) for v in graph if v not in visited))
