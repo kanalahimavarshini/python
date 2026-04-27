@@ -426,3 +426,16 @@ def flatten(lst):
     return result
 
 print(flatten([1, [2, [3, 4], 5]]))
+tasks = []
+
+while True:
+    cmd = input("add/view/exit: ")
+    
+    if cmd == "add":
+        task = input("Task: ")
+        tasks.append(task)
+    elif cmd == "view":
+        for i, t in enumerate(tasks, 1):
+            print(i, t)
+    elif cmd == "exit":
+        break
