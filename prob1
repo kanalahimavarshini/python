@@ -367,3 +367,13 @@ while matrix:
     matrix = list(zip(*matrix))[::-1]
 
 print(res)
+from collections import defaultdict
+
+words = ["eat","tea","tan","ate","nat","bat"]
+groups = defaultdict(list)
+
+for word in words:
+    key = ''.join(sorted(word))
+    groups[key].append(word)
+
+print(list(groups.values()))
