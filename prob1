@@ -396,3 +396,14 @@ class Singleton:
 a = Singleton()
 b = Singleton()
 print(a is b)
+def logger(func):
+    def wrapper(*args, **kwargs):
+        print(f"Calling {func.__name__}")
+        return func(*args, **kwargs)
+    return wrapper
+
+@logger
+def greet():
+    print("Hello!")
+
+greet()
