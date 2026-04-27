@@ -377,3 +377,11 @@ for word in words:
     groups[key].append(word)
 
 print(list(groups.values()))
+n = 13
+count = 0
+
+while n:
+    n &= (n - 1)
+    count += 1
+
+print("Set bits:", count)
