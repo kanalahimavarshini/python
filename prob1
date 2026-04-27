@@ -356,3 +356,14 @@ def flood_fill(image, sr, sc, new_color):
 
 img = [[1,1,1],[1,1,0],[1,0,1]]
 print(flood_fill(img, 1, 1, 2))
+matrix = [[1,2,3],
+          [4,5,6],
+          [7,8,9]]
+
+res = []
+
+while matrix:
+    res += matrix.pop(0)
+    matrix = list(zip(*matrix))[::-1]
+
+print(res)
