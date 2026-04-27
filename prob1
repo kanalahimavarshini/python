@@ -439,3 +439,17 @@ while True:
             print(i, t)
     elif cmd == "exit":
         break
+    import os
+import shutil
+
+source = "my_folder"
+
+for file in os.listdir(source):
+    ext = file.split('.')[-1]
+    folder = os.path.join(source, ext)
+
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
+    shutil.move(os.path.join(source, file),
+                os.path.join(folder, file))
