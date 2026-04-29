@@ -36,3 +36,9 @@ class FileManager:
 
 with FileManager() as f:
     f.write("Hello Context Manager")
+    def count_up(n):
+    for i in range(n):
+        yield i
+
+for num in count_up(5):
+    print(num)
