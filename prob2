@@ -42,3 +42,10 @@ with FileManager() as f:
 
 for num in count_up(5):
     print(num)
+    class NegativeNumberError(Exception):
+    pass
+
+num = int(input("Enter number: "))
+
+if num < 0:
+    raise NegativeNumberError("Negative not allowed")
