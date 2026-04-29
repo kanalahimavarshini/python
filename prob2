@@ -128,3 +128,12 @@ for row in cur.execute("SELECT * FROM users"):
     print(row)
 
 conn.close()
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return jsonify({"message": "Hello API"})
+
+app.run(debug=True)
