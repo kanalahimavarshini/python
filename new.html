@@ -67,3 +67,17 @@ if (len(password) >= 8 and
     print("Strong Password")
 else:
     print("Weak Password")
+    import sqlite3
+
+conn = sqlite3.connect("test.db")
+cur = conn.cursor()
+
+cur.execute("CREATE TABLE IF NOT EXISTS users (name TEXT)")
+cur.execute("INSERT INTO users VALUES ('Hima')")
+
+conn.commit()
+
+for row in cur.execute("SELECT * FROM users"):
+    print(row)
+
+conn.close()
