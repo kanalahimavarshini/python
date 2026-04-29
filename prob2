@@ -49,3 +49,20 @@ num = int(input("Enter number: "))
 
 if num < 0:
     raise NegativeNumberError("Negative not allowed")
+import time
+
+def retry(func):
+    def wrapper():
+        for i in range(3):
+            try:
+                return func()
+            except Exception:
+                print("Retrying...")
+                time.sleep(1)
+    return wrapper
+
+@retry
+def test():
+    raise ValueError("Fail")
+
+test()
