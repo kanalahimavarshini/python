@@ -133,3 +133,13 @@ def count_up(n):
 
 for num in count_up(5):
     print(num)
+    class FileManager:
+    def __enter__(self):
+        self.file = open("test.txt", "w")
+        return self.file
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.file.close()
+
+with FileManager() as f:
+    f.write("Hello Context Manager")
