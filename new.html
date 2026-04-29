@@ -90,3 +90,23 @@ def home():
     return jsonify({"message": "Hello API"})
 
 app.run(debug=True)
+import time
+
+last_called = 0
+
+def rate_limited(func):
+    def wrapper():
+        global last_called
+        if time.time() - last_called < 2:
+            print("Too many requests")
+            return
+        last_called = time.time()
+        return func()
+    return wrapper
+
+@rate_limited
+def api_call():
+    print("API called")
+
+api_call()
+api_call()
