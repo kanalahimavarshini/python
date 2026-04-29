@@ -56,3 +56,14 @@ class Handler(BaseHTTPRequestHandler):
 server = HTTPServer(("localhost", 8000), Handler)
 print("Server running on port 8000")
 server.serve_forever()
+import re
+
+password = input("Enter password: ")
+
+if (len(password) >= 8 and
+    re.search(r"[A-Z]", password) and
+    re.search(r"[a-z]", password) and
+    re.search(r"\d", password)):
+    print("Strong Password")
+else:
+    print("Weak Password")
