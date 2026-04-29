@@ -109,3 +109,8 @@ if (len(password) >= 8 and
     print("Strong Password")
 else:
     print("Weak Password")
+    from PIL import Image
+
+img = Image.open("input.jpg")
+img = img.resize((200, 200))
+img.save("output.jpg")
