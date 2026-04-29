@@ -142,4 +142,21 @@ for num in count_up(5):
         self.file.close()
 
 with FileManager() as f:
-    f.write("Hello Context Manager")
+    f.write("Hello Context Manager")\import asyncio
+
+queue = asyncio.Queue()
+
+async def producer():
+    for i in range(5):
+        await queue.put(i)
+        print("Produced", i)
+
+async def consumer():
+    for _ in range(5):
+        item = await queue.get()
+        print("Consumed", item)
+
+async def main():
+    await asyncio.gather(producer(), consumer())
+
+asyncio.run(main())
