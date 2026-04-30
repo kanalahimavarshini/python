@@ -158,3 +158,12 @@ for ch in text:
         result += ch
 
 print(result)
+arr = [1, 2, 3, 2, 4, 1]
+
+duplicates = []
+
+for num in arr:
+    if arr.count(num) > 1 and num not in duplicates:
+        duplicates.append(num)
+
+print(duplicates)
