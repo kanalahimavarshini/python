@@ -38,3 +38,8 @@ for x in a:
         common.append(x)
 
 print(common)
+num = 10
+
+binary = bin(num)[2:]
+
+print(binary)
