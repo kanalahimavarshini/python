@@ -11,3 +11,11 @@ expected = n * (n + 1) // 2
 actual = sum(arr)
 
 print("Missing:", expected - actual)
+text = "programming"
+
+result = ""
+for ch in text:
+    if ch not in result:
+        result += ch
+
+print(result)
