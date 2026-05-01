@@ -219,3 +219,8 @@ for i in range(1, 11):
 sub = "world"
 
 print(sub in text)
+arr = [1, 2, 3, 2, 4, 2]
+target = 2
+
+indices = [i for i, x in enumerate(arr) if x == target]
+print(indices)
