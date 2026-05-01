@@ -185,3 +185,7 @@ text = "python is fun"
 
 result = " ".join(word.capitalize() for word in text.split())
 print(result)
+sentence = "Python is very powerful language"
+
+largest = max(sentence.split(), key=len)
+print(largest)
