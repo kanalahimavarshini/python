@@ -193,3 +193,8 @@ nested = [[1,2], [3,4], [5]]
 
 flat = [item for sub in nested for item in sub]
 print(flat)
+arr = [1, 2, 2, 3, 2, 4]
+x = 2
+
+count = arr.count(x)
+print(count)
