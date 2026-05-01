@@ -215,3 +215,7 @@ import time
 for i in range(1, 11):
     print(f"Progress: {i*10}%")
     time.sleep(0.3)
+    text = "hello world"
+sub = "world"
+
+print(sub in text)
