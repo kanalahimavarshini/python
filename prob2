@@ -203,3 +203,10 @@ values = [1, 2, 3]
 
 result = dict(zip(keys, values))
 print(result)
+d = {"a": 1, "b": 2}
+
+keys = list(d.keys())
+values = list(d.values())
+
+print(keys)
+print(values)
