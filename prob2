@@ -189,3 +189,7 @@ sentence = "Python is very powerful language"
 
 largest = max(sentence.split(), key=len)
 print(largest)
+nested = [[1,2], [3,4], [5]]
+
+flat = [item for sub in nested for item in sub]
+print(flat)
