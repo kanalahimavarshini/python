@@ -210,3 +210,8 @@ values = list(d.values())
 
 print(keys)
 print(values)
+import time
+
+for i in range(1, 11):
+    print(f"Progress: {i*10}%")
+    time.sleep(0.3)
