@@ -177,3 +177,7 @@ else:
 total = sum(int(d) for d in str(num))
 
 print("Sum:", total)
+num = 12
+
+factors = [i for i in range(1, num+1) if num % i == 0]
+print(factors)
