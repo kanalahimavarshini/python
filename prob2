@@ -269,3 +269,7 @@ for num in arr:
 
 rotated = list(zip(*matrix[::-1]))
 print(rotated)
+n = 16
+
+is_power = n > 0 and (n & (n-1)) == 0
+print(is_power)
