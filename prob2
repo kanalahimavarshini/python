@@ -289,3 +289,6 @@ def safe_divide(a, b):
         return "Cannot divide by zero"
 
 print(safe_divide(10, 0))
+with open("file.txt", "r") as f:
+    for line in f:
+        print(line.strip())
