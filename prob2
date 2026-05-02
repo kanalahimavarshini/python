@@ -292,3 +292,7 @@ print(safe_divide(10, 0))
 with open("file.txt", "r") as f:
     for line in f:
         print(line.strip())
+        import random
+
+otp = random.randint(100000, 999999)
+print("OTP:", otp)
