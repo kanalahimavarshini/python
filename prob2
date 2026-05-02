@@ -249,3 +249,7 @@ d2 = {"b": 3, "c": 4}
 
 merged = {**d1, **d2}
 print(merged)
+d = {"a": 1, "b": 2}
+
+inv = {v: k for k, v in d.items()}
+print(inv)
