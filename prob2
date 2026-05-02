@@ -253,3 +253,13 @@ d = {"a": 1, "b": 2}
 
 inv = {v: k for k, v in d.items()}
 print(inv)
+arr = [2, 4, 3, 5, 7]
+target = 9
+
+seen = set()
+
+for num in arr:
+    if target - num in seen:
+        print(num, target - num)
+        break
+    seen.add(num)
