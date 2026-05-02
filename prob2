@@ -273,3 +273,12 @@ n = 16
 
 is_power = n > 0 and (n & (n-1)) == 0
 print(is_power)
+cache = {}
+
+def square(n):
+    if n not in cache:
+        cache[n] = n * n
+    return cache[n]
+
+print(square(5))
+print(square(5))  # fetched from cache
