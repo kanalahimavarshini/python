@@ -224,3 +224,12 @@ target = 2
 
 indices = [i for i, x in enumerate(arr) if x == target]
 print(indices)
+from collections import Counter
+
+s = "aabbcdde"
+freq = Counter(s)
+
+for ch in s:
+    if freq[ch] == 1:
+        print("First non-repeating:", ch)
+        break
