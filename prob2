@@ -233,3 +233,9 @@ for ch in s:
     if freq[ch] == 1:
         print("First non-repeating:", ch)
         break
+    import string
+
+s = "the quick brown fox jumps over the lazy dog"
+
+is_pangram = set(string.ascii_lowercase) <= set(s.lower())
+print(is_pangram)
