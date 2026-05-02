@@ -239,3 +239,8 @@ s = "the quick brown fox jumps over the lazy dog"
 
 is_pangram = set(string.ascii_lowercase) <= set(s.lower())
 print(is_pangram)
+arr = [1,2,3,4,5,6,7]
+size = 3
+
+chunks = [arr[i:i+size] for i in range(0, len(arr), size)]
+print(chunks)
