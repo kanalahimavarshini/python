@@ -353,3 +353,7 @@ print(prefix)
 s = "12345"
 
 print(s.isdigit())
+with open("file.txt", "r") as f:
+    count = sum(1 for _ in f)
+
+print("Lines:", count)
