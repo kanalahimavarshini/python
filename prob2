@@ -305,3 +305,7 @@ for num in range(start, end+1):
                 break
         else:
             print(num, end=" ")
+            a = [1, 2, 3]
+b = [3, 2, 1]
+
+print(sorted(a) == sorted(b))
