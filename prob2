@@ -350,3 +350,6 @@ for word in words[1:]:
     prefix = prefix[:i]
 
 print(prefix)
+s = "12345"
+
+print(s.isdigit())
