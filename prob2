@@ -411,3 +411,9 @@ text = "Python is easy to learn"
 
 count = text.count(" ")
 print("Spaces:", count)
+import string
+
+text = "Hello, World!"
+clean = "".join(ch for ch in text if ch not in string.punctuation)
+
+print(clean)
