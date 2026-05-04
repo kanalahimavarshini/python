@@ -376,3 +376,7 @@ for i in range(len(s)):
         subs.append(s[i:j])
 
 print(subs)
+from collections import Counter
+
+arr = [1,2,2,3,3,3]
+print(Counter(arr))
