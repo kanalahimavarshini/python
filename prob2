@@ -389,3 +389,7 @@ for x in a:
         result.append(x)
 
 print(result)
+s = "PyThOn"
+
+result = "".join(ch.lower() if ch.isupper() else ch.upper() for ch in s)
+print(result)
