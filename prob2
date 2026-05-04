@@ -423,3 +423,13 @@ t = 2
 
 si = (p * r * t) / 100
 print("Simple Interest:", si)
+s1 = "listen"
+s2 = "silent"
+
+def count_chars(s):
+    d = {}
+    for ch in s:
+        d[ch] = d.get(ch, 0) + 1
+    return d
+
+print(count_chars(s1) == count_chars(s2))
