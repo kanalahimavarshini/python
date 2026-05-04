@@ -446,3 +446,7 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+    a, b, c = 10, 25, 15
+
+maximum = max(a, b, c)
+print("Max:", maximum)
