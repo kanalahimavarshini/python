@@ -403,3 +403,7 @@ else:
     median = arr[n//2]
 
 print("Median:", median)
+arr = [1, 2, 3]
+
+pairs = [(arr[i], arr[j]) for i in range(len(arr)) for j in range(i+1, len(arr))]
+print(pairs)
