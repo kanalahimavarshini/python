@@ -407,3 +407,7 @@ arr = [1, 2, 3]
 
 pairs = [(arr[i], arr[j]) for i in range(len(arr)) for j in range(i+1, len(arr))]
 print(pairs)
+text = "Python is easy to learn"
+
+count = text.count(" ")
+print("Spaces:", count)
