@@ -61,3 +61,7 @@ for ch in text:
 
 print("Upper:", upper)
 print("Lower:", lower)
+arr = [1, 2, 3, 4, 5, 6]
+
+total = sum(x for x in arr if x % 2 != 0)
+print(total)
