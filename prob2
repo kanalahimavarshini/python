@@ -483,3 +483,7 @@ print("Index:", min_idx)
 text = "p y t h o n"
 
 print(text.replace(" ", ""))
+arr = ['P', 'y', 't', 'h', 'o', 'n']
+
+result = "".join(arr)
+print(result)
