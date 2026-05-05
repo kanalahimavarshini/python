@@ -510,3 +510,8 @@ sentence = "Python is fun"
 
 result = " ".join(word[::-1] for word in sentence.split())
 print(result)
+a = [1, 2, 3]
+b = [3, 4, 5]
+
+union = list(set(a) | set(b))
+print(union)
