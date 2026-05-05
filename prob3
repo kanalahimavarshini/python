@@ -103,3 +103,6 @@ text = "hello"
 
 lst = list(text)
 print(lst)
+ch = 'A'
+
+print(ch.isalpha())
