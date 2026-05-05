@@ -106,3 +106,7 @@ print(lst)
 ch = 'A'
 
 print(ch.isalpha())
+arr = [1, 2, 3, 4]
+
+squares = [x*x for x in arr]
+print(squares)
