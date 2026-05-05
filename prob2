@@ -515,3 +515,7 @@ b = [3, 4, 5]
 
 union = list(set(a) | set(b))
 print(union)
+import random
+
+arr = [random.randint(1, 100) for _ in range(5)]
+print(arr)
