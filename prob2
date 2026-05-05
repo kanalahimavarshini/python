@@ -468,3 +468,7 @@ print("Palindrome" if original == rev else "Not Palindrome")
 n = 10
 total = n * (n + 1) // 2
 print(total)
+sentence = "Apple is orange and umbrella"
+
+count = sum(1 for w in sentence.lower().split() if w[0] in "aeiou")
+print(count)
