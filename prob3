@@ -69,3 +69,10 @@ c = 25
 f = (c * 9/5) + 32
 
 print("Fahrenheit:", f)
+arr = [10, 20, 30, 40]
+
+count = 0
+for _ in arr:
+    count += 1
+
+print(count)
