@@ -506,3 +506,7 @@ for word in text.split():
     freq[word] = freq.get(word, 0) + 1
 
 print(freq)
+sentence = "Python is fun"
+
+result = " ".join(word[::-1] for word in sentence.split())
+print(result)
