@@ -495,3 +495,7 @@ elif num < 0:
     print("Negative")
 else:
     print("Zero")
+    arr = [1, 2, 3, 4, 5]
+
+total = sum(arr)
+print(total)
