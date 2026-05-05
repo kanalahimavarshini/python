@@ -472,3 +472,11 @@ sentence = "Apple is orange and umbrella"
 
 count = sum(1 for w in sentence.lower().split() if w[0] in "aeiou")
 print(count)
+arr = [5, 3, 8, 1, 4]
+
+min_idx = 0
+for i in range(len(arr)):
+    if arr[i] < arr[min_idx]:
+        min_idx = i
+
+print("Index:", min_idx)
