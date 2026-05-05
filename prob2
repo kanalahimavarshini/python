@@ -465,3 +465,6 @@ while num > 0:
     num //= 10
 
 print("Palindrome" if original == rev else "Not Palindrome")
+n = 10
+total = n * (n + 1) // 2
+print(total)
