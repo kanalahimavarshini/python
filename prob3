@@ -154,3 +154,7 @@ print(lst)
 s = "Python"
 
 print(s[-1])
+arr = [1, "a", 2, "b", 3]
+
+count = sum(1 for x in arr if isinstance(x, int))
+print(count)
