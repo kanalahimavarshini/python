@@ -128,3 +128,7 @@ arr = [10, 20, 30, 40]
 
 avg = sum(arr) / len(arr)
 print("Average:", avg)
+num = 12345
+digit = 5
+
+print(str(num).endswith(str(digit)))
