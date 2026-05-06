@@ -147,3 +147,7 @@ print(total)
 arr = [1, 2, 3, 4]
 
 print(all(x > 0 for x in arr))
+t = (1, 2, 3)
+
+lst = list(t)
+print(lst)
