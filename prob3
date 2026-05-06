@@ -124,3 +124,7 @@ text = "hello world"
 
 result = "".join('*' if ch in "aeiou" else ch for ch in text)
 print(result)
+arr = [10, 20, 30, 40]
+
+avg = sum(arr) / len(arr)
+print("Average:", avg)
