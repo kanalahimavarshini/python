@@ -132,3 +132,7 @@ num = 12345
 digit = 5
 
 print(str(num).endswith(str(digit)))
+arr = [1, 2, 3, 4]
+
+arr.pop(0)
+print(arr)
