@@ -120,3 +120,7 @@ else:
 
 count = sum(1 for ch in text.lower() if ch.isalpha() and ch not in "aeiou")
 print("Consonants:", count)
+text = "hello world"
+
+result = "".join('*' if ch in "aeiou" else ch for ch in text)
+print(result)
