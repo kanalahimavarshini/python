@@ -116,3 +116,7 @@ if not s:
     print("String is empty")
 else:
     print("Not empty")
+    text = "python programming"
+
+count = sum(1 for ch in text.lower() if ch.isalpha() and ch not in "aeiou")
+print("Consonants:", count)
