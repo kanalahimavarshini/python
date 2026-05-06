@@ -136,3 +136,7 @@ arr = [1, 2, 3, 4]
 
 arr.pop(0)
 print(arr)
+arr = [1, 2, 3]
+
+result = [x for item in arr for x in (item, item)]
+print(result)
