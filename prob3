@@ -169,3 +169,6 @@ arr = [10, 7, 15, 22, 9]
 
 odds = [x for x in arr if x % 2 != 0]
 print(max(odds))
+text = "python programming"
+
+print(text.upper())
