@@ -165,3 +165,7 @@ for ch in s:
     rev = ch + rev
 
 print(rev)
+arr = [10, 7, 15, 22, 9]
+
+odds = [x for x in arr if x % 2 != 0]
+print(max(odds))
