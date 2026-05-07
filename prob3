@@ -209,3 +209,8 @@ sentence = "Python is fun"
 
 for word in sentence.split():
     print(word, ":", len(word))
+    s1 = "apple"
+s2 = "plane"
+
+common = set(s1) & set(s2)
+print(common)
