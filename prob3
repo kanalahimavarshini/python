@@ -172,3 +172,13 @@ print(max(odds))
 text = "python programming"
 
 print(text.upper())
+text = "python is easy python is fun"
+
+words = text.split()
+unique = []
+
+for word in words:
+    if word not in unique:
+        unique.append(word)
+
+print(" ".join(unique))
