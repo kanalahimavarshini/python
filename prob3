@@ -218,3 +218,7 @@ arr = [1, -2, 3, -4, 5]
 
 positive = [x for x in arr if x >= 0]
 print(positive)
+rows = 5
+
+for i in range(1, rows + 1):
+    print("*" * i)
