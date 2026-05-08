@@ -246,3 +246,7 @@ text = "programming"
 
 freq = Counter(text)
 print(freq.most_common(1)[0])
+arr = ["1", "2", "3", "4"]
+
+nums = list(map(int, arr))
+print(nums)
