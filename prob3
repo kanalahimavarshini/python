@@ -260,3 +260,7 @@ else:
 
 unique = set(text)
 print(unique)
+arr = [-1, 2, -3, 4, 5]
+
+total = sum(x for x in arr if x > 0)
+print(total)
