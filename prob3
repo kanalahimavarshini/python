@@ -250,3 +250,9 @@ arr = ["1", "2", "3", "4"]
 
 nums = list(map(int, arr))
 print(nums)
+year = 2000
+
+if year % 100 == 0:
+    print("Century Year")
+else:
+    print("Not Century Year")
