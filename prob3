@@ -234,3 +234,9 @@ arr = [1, 2, 3, 4]
 
 cubes = [x**3 for x in arr]
 print(cubes)
+sentence = "python is easy and powerful"
+
+words = sentence.split()
+words.sort()
+
+print(words)
