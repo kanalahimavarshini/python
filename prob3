@@ -268,3 +268,7 @@ t = ('P', 'y', 't', 'h', 'o', 'n')
 
 result = ''.join(t)
 print(result)
+arr = [12, 456, 7890]
+
+for num in arr:
+    print(num, "has", len(str(num)), "digits")
