@@ -264,3 +264,7 @@ arr = [-1, 2, -3, 4, 5]
 
 total = sum(x for x in arr if x > 0)
 print(total)
+t = ('P', 'y', 't', 'h', 'o', 'n')
+
+result = ''.join(t)
+print(result)
