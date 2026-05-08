@@ -272,3 +272,8 @@ arr = [12, 456, 7890]
 
 for num in arr:
     print(num, "has", len(str(num)), "digits")
+    text = "python"
+ch = "t"
+
+result = text.replace(ch, "")
+print(result)
