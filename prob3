@@ -289,3 +289,6 @@ for num in arr:
         largest = num
 
 print("Largest:", largest)
+text = "PYTHON PROGRAMMING"
+
+print(text.lower())
