@@ -280,3 +280,12 @@ print(result)
 for i in range(1, 51):
     if i % 5 == 0:
         print(i, end=" ")
+        arr = [12, 45, 7, 89, 23]
+
+largest = arr[0]
+
+for num in arr:
+    if num > largest:
+        largest = num
+
+print("Largest:", largest)
