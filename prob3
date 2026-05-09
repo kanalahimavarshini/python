@@ -316,3 +316,6 @@ print(text.count(ch))
 evens = [x for x in range(2, 21, 2)]
 
 print(evens)
+arr = [1, 2, 3, 4]
+
+print(3 in arr)
