@@ -309,3 +309,7 @@ for _ in t:
     count += 1
 
 print(count)
+text = "banana"
+ch = "a"
+
+print(text.count(ch))
