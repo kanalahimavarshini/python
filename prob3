@@ -319,3 +319,6 @@ print(evens)
 arr = [1, 2, 3, 4]
 
 print(3 in arr)
+t = (1, 2, 3, 4)
+
+print(t[::-1])
