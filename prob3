@@ -343,3 +343,7 @@ km = 5
 
 miles = km * 0.621371
 print("Miles:", miles)
+text = "ABC"
+
+for ch in text:
+    print(ch, "=", ord(ch))
