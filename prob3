@@ -347,3 +347,7 @@ text = "ABC"
 
 for ch in text:
     print(ch, "=", ord(ch))
+    sentence = "Python is easy"
+
+count = len(sentence.replace(" ", ""))
+print(count)
