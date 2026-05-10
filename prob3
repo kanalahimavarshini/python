@@ -351,3 +351,7 @@ for ch in text:
 
 count = len(sentence.replace(" ", ""))
 print(count)
+rows = 5
+
+for i in range(rows, 0, -1):
+    print("*" * i)
