@@ -364,3 +364,7 @@ print(common)
 num = 25
 
 print(oct(num)[2:])
+arr = ["Python", "", "Code", "", "AI"]
+
+result = [x for x in arr if x]
+print(result)
