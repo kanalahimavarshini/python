@@ -381,3 +381,7 @@ arr = [1, 2, 3]
 
 t = tuple(arr)
 print(t)
+nums = [14, 20, 21, 35, 40]
+
+result = [x for x in nums if x % 7 == 0]
+print(result)
