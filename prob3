@@ -361,3 +361,6 @@ c = [2, 3, 6]
 
 common = list(set(a) & set(b) & set(c))
 print(common)
+num = 25
+
+print(oct(num)[2:])
