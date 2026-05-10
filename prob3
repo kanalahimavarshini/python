@@ -355,3 +355,9 @@ rows = 5
 
 for i in range(rows, 0, -1):
     print("*" * i)
+    a = [1, 2, 3, 4]
+b = [2, 3, 5]
+c = [2, 3, 6]
+
+common = list(set(a) & set(b) & set(c))
+print(common)
