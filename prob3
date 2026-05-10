@@ -377,3 +377,7 @@ for num in arr:
         largest = num
 
 print(largest)
+arr = [1, 2, 3]
+
+t = tuple(arr)
+print(t)
