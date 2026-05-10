@@ -368,3 +368,12 @@ arr = ["Python", "", "Code", "", "AI"]
 
 result = [x for x in arr if x]
 print(result)
+arr = [3, 7, 2, 9, 5]
+
+largest = arr[0]
+
+for num in arr:
+    if num > largest:
+        largest = num
+
+print(largest)
