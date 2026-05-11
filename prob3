@@ -402,3 +402,12 @@ area = 3.14 * radius * radius
 print("Area:", area)
 for i in range(1, 101):
     print(i, end=" ")
+    arr = [8, 3, 12, 1, 6]
+
+smallest = arr[0]
+
+for num in arr:
+    if num < smallest:
+        smallest = num
+
+print("Smallest:", smallest)
