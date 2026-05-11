@@ -411,3 +411,7 @@ for num in arr:
         smallest = num
 
 print("Smallest:", smallest)
+t = (10, 20, 30, 40)
+
+reversed_tuple = t[::-1]
+print(reversed_tuple)
