@@ -390,3 +390,9 @@ from datetime import datetime
 now = datetime.now()
 
 print(now)
+ch = input("Enter character: ").lower()
+
+if ch in "aeiou":
+    print("Vowel")
+else:
+    print("Not a vowel")
