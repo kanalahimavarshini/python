@@ -400,3 +400,5 @@ else:
 
 area = 3.14 * radius * radius
 print("Area:", area)
+for i in range(1, 101):
+    print(i, end=" ")
