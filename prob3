@@ -396,3 +396,7 @@ if ch in "aeiou":
     print("Vowel")
 else:
     print("Not a vowel")
+    radius = 5
+
+area = 3.14 * radius * radius
+print("Area:", area)
