@@ -415,3 +415,7 @@ t = (10, 20, 30, 40)
 
 reversed_tuple = t[::-1]
 print(reversed_tuple)
+num = 49
+
+root = num ** 0.5
+print("Square Root:", root)
