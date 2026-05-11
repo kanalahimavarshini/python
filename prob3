@@ -439,3 +439,9 @@ with open("file.txt", "r") as f:
 
 words = text.split()
 print("Total words:", len(words))
+arr = [10, 40, 20, 50, 30]
+
+arr = list(set(arr))
+arr.sort()
+
+print("Second Largest:", arr[-2])
