@@ -474,3 +474,7 @@ text = "Python programming is fun"
 
 words = text.split()
 print(words)
+arr = ["Python", "Java", "C++"]
+
+for index, value in enumerate(arr):
+    print(index, value)
