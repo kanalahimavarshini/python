@@ -491,3 +491,6 @@ for num in arr:
 
 print("Positive:", positive)
 print("Negative:", negative)
+num = 255
+
+print(hex(num)[2:])
