@@ -478,3 +478,16 @@ arr = ["Python", "Java", "C++"]
 
 for index, value in enumerate(arr):
     print(index, value)
+    arr = [1, -2, 3, -4, 5]
+
+positive = 0
+negative = 0
+
+for num in arr:
+    if num >= 0:
+        positive += 1
+    else:
+        negative += 1
+
+print("Positive:", positive)
+print("Negative:", negative)
