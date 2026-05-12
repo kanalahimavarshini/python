@@ -470,3 +470,7 @@ while num > 0:
     num //= 10
 
 print(total)
+text = "Python programming is fun"
+
+words = text.split()
+print(words)
