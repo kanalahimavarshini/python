@@ -494,3 +494,12 @@ print("Negative:", negative)
 num = 255
 
 print(hex(num)[2:])
+text = "programming"
+
+duplicates = []
+
+for ch in text:
+    if text.count(ch) > 1 and ch not in duplicates:
+        duplicates.append(ch)
+
+print(duplicates)
