@@ -460,3 +460,5 @@ else:
 
 seconds = minutes * 60
 print(seconds)
+for i in range(2, 51, 2):
+    print(i, end=" ")
