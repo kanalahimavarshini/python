@@ -26,3 +26,8 @@ print(text.startswith("P"))
 t = (1, 2, 3, 4)
 
 print(sum(t))
+keys = ["name", "age"]
+values = ["Hima", 18]
+
+d = dict(zip(keys, values))
+print(d)
