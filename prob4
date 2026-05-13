@@ -9,3 +9,8 @@ else:
 num = int(s)
 print(num)
 print(type(num))
+sentence = "Python programming language"
+
+for word in sentence.split():
+    count = sum(1 for ch in word.lower() if ch in "aeiou")
+    print(word, ":", count)
