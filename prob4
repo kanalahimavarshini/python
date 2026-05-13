@@ -4,3 +4,8 @@ if num % 10 == 0:
     print("Multiple of 10")
 else:
     print("Not a multiple of 10")
+    s = "123"
+
+num = int(s)
+print(num)
+print(type(num))
