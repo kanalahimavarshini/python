@@ -20,3 +20,6 @@ for word in sentence.split():
 
 arr.remove(20)
 print(arr)
+text = "Python"
+
+print(text.startswith("P"))
