@@ -6,3 +6,9 @@ for i in range(len(arr)-1, -1, -1):
     reversed_list.append(arr[i])
 
 print(reversed_list)
+total = 0
+
+for i in range(2, 21, 2):
+    total += i
+
+print(total)
