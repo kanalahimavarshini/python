@@ -95,3 +95,6 @@ for num in arr:
     count += len(str(num))
 
 print("Total digits:", count)
+cubes = [x**3 for x in range(1, 6)]
+
+print(cubes)
