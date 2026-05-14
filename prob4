@@ -80,3 +80,7 @@ for digit in binary:
 print(decimal)
 for i in range(65, 91):
     print(chr(i), "=", i)
+    sentence = "Python is easy to learn"
+
+result = sentence.replace(" ", "")
+print(result)
