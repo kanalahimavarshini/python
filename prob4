@@ -71,3 +71,10 @@ s2 = "python is powerful"
 
 common = set(s1.split()) & set(s2.split())
 print(common)
+binary = "1010"
+decimal = 0
+
+for digit in binary:
+    decimal = decimal * 2 + int(digit)
+
+print(decimal)
