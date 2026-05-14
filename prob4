@@ -87,3 +87,11 @@ print(result)
 t = (10, 50, 20, 80, 30)
 
 print(max(t))
+arr = [12, 345, 6789]
+
+count = 0
+
+for num in arr:
+    count += len(str(num))
+
+print("Total digits:", count)
