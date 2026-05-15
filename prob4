@@ -166,3 +166,12 @@ for ch in text:
 
 print("Alphabets:", alphabets)
 print("Digits:", digits)
+arr = [1, 2, 3, 2, 4, 1]
+
+duplicates = []
+
+for x in arr:
+    if arr.count(x) > 1 and x not in duplicates:
+        duplicates.append(x)
+
+print(duplicates)
