@@ -124,3 +124,7 @@ else:
     return n * (n + 1) // 2
 
 print(natural_sum(10))
+t = (("a", 1), ("b", 2), ("c", 3))
+
+d = dict(t)
+print(d)
