@@ -145,3 +145,7 @@ for num in range(2, 51):
 
     if is_prime:
         print(num, end=" ")
+        sentence = "Python is very easy"
+
+words = sentence.split()[::-1]
+print(" ".join(words))
