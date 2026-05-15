@@ -153,3 +153,16 @@ def largest(a, b, c):
     return max(a, b, c)
 
 print(largest(10, 50, 30))
+text = "Python123"
+
+alphabets = 0
+digits = 0
+
+for ch in text:
+    if ch.isalpha():
+        alphabets += 1
+    elif ch.isdigit():
+        digits += 1
+
+print("Alphabets:", alphabets)
+print("Digits:", digits)
