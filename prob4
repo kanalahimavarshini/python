@@ -120,3 +120,7 @@ if sum_digits == product_digits:
     print("Spy Number")
 else:
     print("Not Spy Number")
+    def natural_sum(n):
+    return n * (n + 1) // 2
+
+print(natural_sum(10))
