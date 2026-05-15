@@ -149,3 +149,7 @@ for num in range(2, 51):
 
 words = sentence.split()[::-1]
 print(" ".join(words))
+def largest(a, b, c):
+    return max(a, b, c)
+
+print(largest(10, 50, 30))
