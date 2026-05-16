@@ -202,3 +202,7 @@ if '0' in num and num[0] != '0':
     print("Duck Number")
 else:
     print("Not Duck Number")
+    arr = [10, 20, 30, 40, 50]
+
+total = sum(arr[i] for i in range(0, len(arr), 2))
+print(total)
