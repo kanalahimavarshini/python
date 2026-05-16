@@ -217,3 +217,5 @@ for word in sentence.split():
     freq[word] = freq.get(word, 0) + 1
 
 print(freq)
+for i in range(10, 0, -1):
+    print(i, end=" ")
