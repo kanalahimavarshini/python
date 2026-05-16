@@ -250,3 +250,8 @@ for i in range(rows):
 
 for i in range(rows-1, 0, -1):
     print(" " * (rows-i) + "* " * i)
+    text = "PyThOn"
+
+count = sum(1 for ch in text if ch.isupper())
+
+print(count)
