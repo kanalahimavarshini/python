@@ -255,3 +255,11 @@ for i in range(rows-1, 0, -1):
 count = sum(1 for ch in text if ch.isupper())
 
 print(count)
+num = 10
+binary = ""
+
+while num > 0:
+    binary = str(num % 2) + binary
+    num //= 2
+
+print(binary)
