@@ -206,3 +206,6 @@ else:
 
 total = sum(arr[i] for i in range(0, len(arr), 2))
 print(total)
+text = "python programming language"
+
+print(text.title())
