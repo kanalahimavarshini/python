@@ -196,3 +196,9 @@ t2 = (3, 4, 5, 6)
 
 intersection = tuple(set(t1) & set(t2))
 print(intersection)
+num = input("Enter number: ")
+
+if '0' in num and num[0] != '0':
+    print("Duck Number")
+else:
+    print("Not Duck Number")
