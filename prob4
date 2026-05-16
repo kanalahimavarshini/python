@@ -219,3 +219,10 @@ for word in sentence.split():
 print(freq)
 for i in range(10, 0, -1):
     print(i, end=" ")
+    num = 1234
+product = 1
+
+for digit in str(num):
+    product *= int(digit)
+
+print(product)
