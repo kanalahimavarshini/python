@@ -209,3 +209,11 @@ print(total)
 text = "python programming language"
 
 print(text.title())
+sentence = "python is easy python is fun"
+
+freq = {}
+
+for word in sentence.split():
+    freq[word] = freq.get(word, 0) + 1
+
+print(freq)
