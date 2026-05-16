@@ -226,3 +226,12 @@ for digit in str(num):
     product *= int(digit)
 
 print(product)
+text = "mississippi"
+
+result = ""
+
+for ch in text:
+    if ch not in result:
+        result += ch
+
+print(result)
