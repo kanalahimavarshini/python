@@ -275,3 +275,12 @@ else:
 
 avg = sum(t) / len(t)
 print(avg)
+text = "Python@123!"
+
+count = 0
+
+for ch in text:
+    if not ch.isalnum():
+        count += 1
+
+print("Special Characters:", count)
