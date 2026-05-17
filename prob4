@@ -271,3 +271,7 @@ if num % digit_sum == 0:
     print("Harshad Number")
 else:
     print("Not Harshad Number")
+    t = (10, 20, 30, 40)
+
+avg = sum(t) / len(t)
+print(avg)
