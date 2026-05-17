@@ -291,3 +291,7 @@ print(largest)
 num = 25
 
 print(bin(num)[2:])
+num = 12345
+
+total = sum(int(d) for d in str(num) if int(d) % 2 != 0)
+print(total)
