@@ -288,3 +288,6 @@ words = ["python", "java", "programming", "c"]
 
 largest = max(words, key=len)
 print(largest)
+num = 25
+
+print(bin(num)[2:])
