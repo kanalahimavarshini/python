@@ -284,3 +284,7 @@ for ch in text:
         count += 1
 
 print("Special Characters:", count)
+words = ["python", "java", "programming", "c"]
+
+largest = max(words, key=len)
+print(largest)
