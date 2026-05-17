@@ -263,3 +263,11 @@ while num > 0:
     num //= 2
 
 print(binary)
+num = 18
+
+digit_sum = sum(int(d) for d in str(num))
+
+if num % digit_sum == 0:
+    print("Harshad Number")
+else:
+    print("Not Harshad Number")
