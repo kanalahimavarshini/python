@@ -305,3 +305,7 @@ for i in range(rows, 0, -1):
 
 s = set(arr)
 print(s)
+a = {1, 2, 3, 4}
+b = {3, 4, 5}
+
+print(a - b)
