@@ -309,3 +309,7 @@ a = {1, 2, 3, 4}
 b = {3, 4, 5}
 
 print(a - b)
+nested = [[1, 2], [3, 4, 5], [6]]
+
+count = sum(len(sub) for sub in nested)
+print(count)
